@@ -1,6 +1,6 @@
 const Telegraf = require("telegraf");
 const axios = require("axios");
-const bot = new Telegraf("[INSERT TELEGRAM BOT TOKEN HERE");
+const bot = new Telegraf("[INSERT TELEGRAM BOT TOKEN HERE]");
 
 bot.command("start", ctx => {
     ctx.reply("Welcome, this is a simple bot that provides you the air temperature of the different regions in Singapore." + 
